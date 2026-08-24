@@ -1,0 +1,5 @@
+id: T04
+title: 小型功能实现（textstat 词频与可读性）
+category: feature
+timeout_s: 2400
+grader: grader.py

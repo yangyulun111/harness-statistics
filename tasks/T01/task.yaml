@@ -1,0 +1,5 @@
+id: T01
+title: 单文件 Bug 修复（parse_duration）
+category: single-file-bugfix
+timeout_s: 1800
+grader: grader.py

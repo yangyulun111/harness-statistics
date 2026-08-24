@@ -1,0 +1,19 @@
+diff --git a/app/dates.py b/app/dates.py
+index a0eb6e1..0708de3 100644
+--- a/app/dates.py
++++ b/app/dates.py
+@@ -1,8 +1,12 @@
++import calendar
+ from datetime import date
+ 
+ 
+ def next_month(d: date) -> date:
+     """返回下个月同一天；目标月不足该日时收敛到目标月最后一天。"""
+     if d.month == 12:
+-        return date(d.year + 1, 1, min(d.day, 31))
+-    return date(d.year, d.month + 1, min(d.day, 30))
++        year, month = d.year + 1, 1
++    else:
++        year, month = d.year, d.month + 1
++    last = calendar.monthrange(year, month)[1]
++    return date(year, month, min(d.day, last))

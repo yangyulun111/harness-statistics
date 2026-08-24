@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "updated": "2026-08-23",
+  "notes": "手工维护的时点价格目录（USD / 每百万 Token）。促销/调价新增条目即可，取价规则=事件时点落在 [effective_from, effective_to) 的最新条目。cache_write 不填时按 input 价计；reasoning 计入 output。以下数值为示例占位，请按官方定价页核实后更新 source。",
+  "entries": [
+    {
+      "model": "gpt-5.6-sol",
+      "effective_from": "2026-07-01",
+      "effective_to": "2026-08-15",
+      "currency": "USD",
+      "input_per_mtok": 2.5,
+      "cached_input_per_mtok": 0.25,
+      "output_per_mtok": 20.0,
+      "source": "示例：官方标准价（请核实）"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "effective_from": "2026-08-15",
+      "effective_to": null,
+      "currency": "USD",
+      "input_per_mtok": 1.25,
+      "cached_input_per_mtok": 0.125,
+      "output_per_mtok": 10.0,
+      "promo": true,
+      "source": "示例：官方夏季促销（sol 半价，请核实）",
+      "note": "促销期条目：半价"
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "currency": "USD",
+      "input_per_mtok": 1.25,
+      "cached_input_per_mtok": 0.125,
+      "output_per_mtok": 10.0,
+      "source": "示例：官方标准价（请核实）"
+    },
+    {
+      "model": "gpt-5.5",
+      "effective_from": "2026-06-01",
+      "effective_to": null,
+      "currency": "USD",
+      "input_per_mtok": 1.25,
+      "cached_input_per_mtok": 0.125,
+      "output_per_mtok": 10.0,
+      "source": "示例：官方标准价（请核实）"
+    }
+  ]
+}

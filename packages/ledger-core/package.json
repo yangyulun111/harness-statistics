@@ -1,0 +1,17 @@
+{
+  "name": "@hs/ledger-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@hs/codex-discovery": "*",
+    "@hs/codex-state": "*",
+    "@hs/rollout-parser": "*",
+    "@hs/shared": "*",
+    "@hs/task-graph": "*",
+    "@hs/usage-accounting": "*"
+  }
+}

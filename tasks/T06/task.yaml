@@ -1,0 +1,5 @@
+id: T06
+title: 小功能实现 + 长耗时测试（pipeline 重试）
+category: feature-longtest
+timeout_s: 3600
+grader: grader.py

@@ -1,0 +1,13 @@
+{
+  "name": "@hs/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "hs": "./src/main.ts"
+  },
+  "dependencies": {
+    "@hs/ledger-core": "*",
+    "@hs/shared": "*"
+  }
+}

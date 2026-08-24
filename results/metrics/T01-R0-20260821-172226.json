@@ -1,0 +1,41 @@
+{
+  "run_id": "T01-R0-20260821-172226",
+  "task_id": "T01",
+  "repeat": 0,
+  "workspace": "E:\\projects\\Harness_statistics\\results\\raw\\T01-R0-20260821-172226\\ws",
+  "t0_ms": 1787304146454,
+  "t_end_ms": 1787304149549,
+  "thread_id": null,
+  "attribution": "none",
+  "usage_source": "rollout_cumulative",
+  "authoritative": false,
+  "quality": {
+    "test_pass_rate": 1.0,
+    "task_completed": true,
+    "manual_score": null,
+    "terminal_failure": false
+  },
+  "tokens": {},
+  "turns": [],
+  "orchestration": {
+    "user_turns": null,
+    "usage_bearing_samples": null,
+    "wait_status_model_calls": null,
+    "rebroadcast_events": null,
+    "subagents": null,
+    "retries": null,
+    "classification_version": null
+  },
+  "context": {
+    "peak_context_tokens": null,
+    "model_context_window": null,
+    "compactions": null,
+    "tool_output_bytes": null
+  },
+  "performance": {
+    "total_ms": 3095,
+    "ttft_ms_first": null,
+    "time_to_first_patch_ms": 3041,
+    "failure_recovery_ms": null
+  }
+}

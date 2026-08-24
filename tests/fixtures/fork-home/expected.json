@@ -1,0 +1,803 @@
+{
+  "late_parent_file": "rollout-2026-08-01T16-00-00-f1a0a000-0000-4000-8000-00000000000x.jsonl",
+  "phase1": {
+    "f1a0a000-0000-4000-8000-00000000000y": {
+      "method": "legacy_time",
+      "status": "parent_missing",
+      "baseline": 3520,
+      "baseline_verified": 0,
+      "prefix_events": 4,
+      "replay_input": 3200,
+      "replay_cached": 3000,
+      "replay_output": 320,
+      "replay_total": 3520,
+      "replay_events": 4,
+      "native_total": 5500,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 9020,
+          "replay_total": 3520,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000z": {
+      "method": "unresolved",
+      "status": "parent_missing",
+      "baseline": 0,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 880,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 880,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000001b": {
+      "method": "none",
+      "status": "verified",
+      "baseline": 0,
+      "baseline_verified": 1,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 1870,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 1870,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000003a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 85000,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 85000,
+          "replay_total": 0,
+          "samples": 4
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000004a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 220,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 220,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 7400,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 7400,
+          "replay_total": 0,
+          "samples": 7
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000b": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 5300,
+      "baseline_verified": 1,
+      "prefix_events": 5,
+      "replay_input": 5000,
+      "replay_cached": 4400,
+      "replay_output": 300,
+      "replay_total": 5300,
+      "replay_events": 5,
+      "native_total": 6500,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 11800,
+          "replay_total": 5300,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000c": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 22800,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 22800,
+          "replay_total": 0,
+          "samples": 6
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000d": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 18600,
+      "baseline_verified": 1,
+      "prefix_events": 4,
+      "replay_input": 18000,
+      "replay_cached": 16000,
+      "replay_output": 600,
+      "replay_total": 18600,
+      "replay_events": 4,
+      "native_total": 9400,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 28000,
+          "replay_total": 18600,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000e": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 770,
+      "daily": {
+        "2026-07-30": {
+          "tokens": 770,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000f": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 770,
+      "baseline_verified": 1,
+      "prefix_events": 3,
+      "replay_input": 700,
+      "replay_cached": 600,
+      "replay_output": 70,
+      "replay_total": 770,
+      "replay_events": 3,
+      "native_total": 320,
+      "daily": {
+        "2026-07-30": {
+          "tokens": 770,
+          "replay_total": 770,
+          "samples": 0
+        },
+        "2026-08-01": {
+          "tokens": 320,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000h": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 550,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 550,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000i": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 330,
+      "baseline_verified": 1,
+      "prefix_events": 1,
+      "replay_input": 300,
+      "replay_cached": 250,
+      "replay_output": 30,
+      "replay_total": 330,
+      "replay_events": 1,
+      "native_total": 7370,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 7700,
+          "replay_total": 330,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000001a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 220,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 220,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 2090,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 2090,
+          "replay_total": 0,
+          "samples": 4
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002b": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 1760,
+      "baseline_verified": 1,
+      "prefix_events": 3,
+      "replay_input": 1600,
+      "replay_cached": 1500,
+      "replay_output": 160,
+      "replay_total": 1760,
+      "replay_events": 3,
+      "native_total": 1760,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 3520,
+          "replay_total": 1760,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002c": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 3520,
+      "baseline_verified": 1,
+      "prefix_events": 5,
+      "replay_input": 3200,
+      "replay_cached": 3000,
+      "replay_output": 320,
+      "replay_total": 3520,
+      "replay_events": 5,
+      "native_total": 1980,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 5500,
+          "replay_total": 3520,
+          "samples": 1
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000005a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 3960,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 3960,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    }
+  },
+  "phase2": {
+    "f1a0a000-0000-4000-8000-00000000000a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 7400,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 7400,
+          "replay_total": 0,
+          "samples": 7
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000b": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 5300,
+      "baseline_verified": 1,
+      "prefix_events": 5,
+      "replay_input": 5000,
+      "replay_cached": 4400,
+      "replay_output": 300,
+      "replay_total": 5300,
+      "replay_events": 5,
+      "native_total": 6500,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 11800,
+          "replay_total": 5300,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000c": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 22800,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 22800,
+          "replay_total": 0,
+          "samples": 6
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000d": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 18600,
+      "baseline_verified": 1,
+      "prefix_events": 4,
+      "replay_input": 18000,
+      "replay_cached": 16000,
+      "replay_output": 600,
+      "replay_total": 18600,
+      "replay_events": 4,
+      "native_total": 9400,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 28000,
+          "replay_total": 18600,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000e": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 770,
+      "daily": {
+        "2026-07-30": {
+          "tokens": 770,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000f": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 770,
+      "baseline_verified": 1,
+      "prefix_events": 3,
+      "replay_input": 700,
+      "replay_cached": 600,
+      "replay_output": 70,
+      "replay_total": 770,
+      "replay_events": 3,
+      "native_total": 320,
+      "daily": {
+        "2026-07-30": {
+          "tokens": 770,
+          "replay_total": 770,
+          "samples": 0
+        },
+        "2026-08-01": {
+          "tokens": 320,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000h": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 550,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 550,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000i": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 330,
+      "baseline_verified": 1,
+      "prefix_events": 1,
+      "replay_input": 300,
+      "replay_cached": 250,
+      "replay_output": 30,
+      "replay_total": 330,
+      "replay_events": 1,
+      "native_total": 7370,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 7700,
+          "replay_total": 330,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000x": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 3520,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 3520,
+          "replay_total": 0,
+          "samples": 4
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000y": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 3520,
+      "baseline_verified": 1,
+      "prefix_events": 4,
+      "replay_input": 3200,
+      "replay_cached": 3000,
+      "replay_output": 320,
+      "replay_total": 3520,
+      "replay_events": 4,
+      "native_total": 5500,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 9020,
+          "replay_total": 3520,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000000z": {
+      "method": "unresolved",
+      "status": "parent_missing",
+      "baseline": 0,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 880,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 880,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000001a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 220,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 220,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000001b": {
+      "method": "none",
+      "status": "verified",
+      "baseline": 0,
+      "baseline_verified": 1,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 1870,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 1870,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 2090,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 2090,
+          "replay_total": 0,
+          "samples": 4
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002b": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 1760,
+      "baseline_verified": 1,
+      "prefix_events": 3,
+      "replay_input": 1600,
+      "replay_cached": 1500,
+      "replay_output": 160,
+      "replay_total": 1760,
+      "replay_events": 3,
+      "native_total": 1760,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 3520,
+          "replay_total": 1760,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000002c": {
+      "method": "parent_prefix",
+      "status": "verified",
+      "baseline": 3520,
+      "baseline_verified": 1,
+      "prefix_events": 5,
+      "replay_input": 3200,
+      "replay_cached": 3000,
+      "replay_output": 320,
+      "replay_total": 3520,
+      "replay_events": 5,
+      "native_total": 1980,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 5500,
+          "replay_total": 3520,
+          "samples": 1
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000003a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 85000,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 85000,
+          "replay_total": 0,
+          "samples": 4
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000004a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 220,
+      "daily": {
+        "2026-08-01": {
+          "tokens": 220,
+          "replay_total": 0,
+          "samples": 2
+        }
+      }
+    },
+    "f1a0a000-0000-4000-8000-00000000005a": {
+      "method": null,
+      "status": null,
+      "baseline": null,
+      "baseline_verified": 0,
+      "prefix_events": 0,
+      "replay_input": 0,
+      "replay_cached": 0,
+      "replay_output": 0,
+      "replay_total": 0,
+      "replay_events": 0,
+      "native_total": 3960,
+      "daily": {
+        "2026-08-02": {
+          "tokens": 3960,
+          "replay_total": 0,
+          "samples": 3
+        }
+      }
+    }
+  },
+  "v12": {
+    "thread": "f1a0a000-0000-4000-8000-00000000005a",
+    "sandbox_policy": {
+      "type": "read-only"
+    },
+    "approval_mode": "never",
+    "mcp_calls": 2,
+    "mcp_failures": 1,
+    "shell_failures": 1,
+    "turn": {
+      "mcp_calls": 2,
+      "mcp_failures": 1,
+      "shell_failures": 1,
+      "patches": 1
+    },
+    "failures": [
+      {
+        "seq": 0,
+        "kind": "shell_exit",
+        "exit_code": 1,
+        "turn_index": 0,
+        "command": "tools.exec_command({cmd:[\"node\",\"-e\",\"1\"]})",
+        "detail": "{\"chunk_id\":\"c1\",\"wall_time_seconds\":0.2,\"exit_code\":1,\"output\":\"boom\"}"
+      },
+      {
+        "seq": 1,
+        "kind": "mcp_err",
+        "exit_code": null,
+        "turn_index": 0,
+        "server": "fs",
+        "tool": "read_file",
+        "command": null,
+        "detail": "permission denied"
+      },
+      {
+        "seq": 2,
+        "kind": "patch_fail",
+        "exit_code": null,
+        "turn_index": 0,
+        "server": null,
+        "tool": null,
+        "command": "bad.txt",
+        "detail": "patch failed: no such file: bad.txt"
+      }
+    ]
+  }
+}

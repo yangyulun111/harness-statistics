@@ -1,0 +1,5 @@
+id: T02
+title: 多文件 Bug 修复（购物车小计与折扣档位）
+category: multi-file-bugfix
+timeout_s: 1800
+grader: grader.py

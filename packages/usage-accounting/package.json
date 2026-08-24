@@ -1,0 +1,13 @@
+{
+  "name": "@hs/usage-accounting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@hs/codex-state": "*",
+    "@hs/shared": "*"
+  }
+}

@@ -1,0 +1,5 @@
+id: T05
+title: 重构并保持测试全绿（report 渲染器）
+category: refactor
+timeout_s: 2400
+grader: grader.py

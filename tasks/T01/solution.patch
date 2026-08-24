@@ -1,0 +1,15 @@
+diff --git a/app/calc.py b/app/calc.py
+index a2614b2..47afa5a 100644
+--- a/app/calc.py
++++ b/app/calc.py
+@@ -10,8 +10,8 @@ def parse_duration(text):
+             num += ch
+         elif ch in UNIT:
+             if num:
+-                total = max(total, int(num) * UNIT[ch])
++                total += int(num) * UNIT[ch]
+                 num = ""
+     if num:
+-        total = max(total, int(num))
++        total += int(num)
+     return total

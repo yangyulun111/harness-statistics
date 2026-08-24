@@ -1,0 +1,54 @@
+diff --git a/app/report.py b/app/report.py
+index b1fd68a..db61126 100644
+--- a/app/report.py
++++ b/app/report.py
+@@ -1,18 +1,33 @@
++def _border(width: int) -> str:
++    return "+" + "-" * (width - 2) + "+"
++
++
++def _clean_line(raw, width: int) -> str:
++    ln = str(raw).replace("\t", "    ")
++    if width - 4 < len(ln):
++        ln = ln[: width - 7] + "..."
++    return ln
++
++
++def _split_marker(ln: str) -> tuple:
++    if ln.startswith("# "):
++        return "#", ln[2:]
++    return " ", ln
++
++
++def _format_row(ln: str, marker: str, width: int) -> str:
++    pad = width - 4 - len(ln)
++    left = pad // 2
++    right = pad - left
++    return "|" + marker + " " + " " * left + ln + " " * right + "|"
++
++
+ def render_report(lines, width):
+-    out = []
+-    out.append("+" + "-" * (width - 2) + "+")
+-    for ln in lines:
+-        ln = str(ln).replace("\t", "    ")
+-        if width - 4 < len(ln):
+-            ln = ln[: width - 7] + "..."
+-        pad = width - 4 - len(ln)
+-        left = pad // 2
+-        right = pad - left
+-        if ln.startswith("# "):
+-            marker = "#"
+-            ln = ln[2:]
+-        else:
+-            marker = " "
+-        out.append("|" + marker + " " + " " * left + ln + " " * right + "|")
+-    out.append("+" + "-" * (width - 2) + "+")
++    """把多行文本渲染为定宽边框报告：标题行以 # 标记，超长行截断加省略号。"""
++    out = [_border(width)]
++    for raw in lines:
++        ln = _clean_line(raw, width)
++        marker, ln = _split_marker(ln)
++        out.append(_format_row(ln, marker, width))
++    out.append(_border(width))
+     return "\n".join(out)

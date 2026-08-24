@@ -1,0 +1,30 @@
+diff --git a/shipping/cart.py b/shipping/cart.py
+index b866f2e..de23630 100644
+--- a/shipping/cart.py
++++ b/shipping/cart.py
+@@ -7,6 +7,6 @@ class Cart:
+ 
+     def subtotal(self):
+         total = 0
+-        for _name, price, _qty in self._items:
+-            total += price
++        for _name, price, qty in self._items:
++            total += price * qty
+         return total
+diff --git a/shipping/pricing.py b/shipping/pricing.py
+index 0d9eb15..90c11d1 100644
+--- a/shipping/pricing.py
++++ b/shipping/pricing.py
+@@ -1,9 +1,9 @@
+ def discount_rate(subtotal):
+     """满 500 打 8 折（0.20），满 100 打 9 折（0.10），否则无折扣。"""
+-    if subtotal >= 100:
+-        return 0.10
+-    elif subtotal >= 500:
++    if subtotal >= 500:
+         return 0.20
++    elif subtotal >= 100:
++        return 0.10
+     return 0.0
+ 
+ 

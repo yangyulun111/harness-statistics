@@ -1,0 +1,16 @@
+# 本地账本与原始数据（含 prompt/工具输出等敏感内容，绝不入库）
+data/
+results/raw/
+# Python
+__pycache__/
+*.pyc
+# 任务解法缓存（solution.patch 保留，.solutions 目录不隐藏也可保留）
+*.log
+# TS 轨（后续）
+node_modules/
+dist/
+# 真实会话数据与个人环境（含 prompt/工具输出/机器路径，绝不入库）
+tests/fixtures/codex-home/
+gui-test/
+.zcode/
+environment.json

@@ -1,0 +1,58 @@
+<!doctype html><html lang="zh"><head><meta charset="utf-8">
+<title>Codex Task Ledger — Baseline 报告 v0</title><style>
+body{font:14px/1.5 -apple-system,"Segoe UI",sans-serif;margin:24px;background:#f7f8fa;color:#1c1e21}
+h1{font-size:20px} h2{font-size:16px;margin-top:28px}
+.card{background:#fff;border:1px solid #e2e5ea;border-radius:10px;padding:14px 16px;margin:12px 0;max-width:860px}
+.card.fail{border-left:4px solid #d93025} .card.ok{border-left:4px solid #188038}
+.head{display:flex;gap:8px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
+.badge{font-size:11px;padding:2px 8px;border-radius:10px;color:#fff} .green{background:#188038}
+.red{background:#d93025} .orange{background:#e8710a}
+.grid{display:grid;grid-template-columns:auto auto auto auto;gap:2px 14px}
+.grid span{color:#5f6368} .grid b{font-weight:600}
+.turns{margin-top:10px} .turnbar{display:flex;gap:8px;align-items:center;margin:2px 0}
+.turnbar .lbl{width:24px;color:#5f6368;font-size:12px} .turnbar .dur{width:70px;color:#5f6368;font-size:12px}
+.track{flex:1;height:8px;background:#e8eaed;border-radius:4px;display:flex;overflow:hidden}
+.seg.wait{background:#e8710a} .seg.work{background:#1a73e8}
+table{border-collapse:collapse;background:#fff} td,th{border:1px solid #e2e5ea;padding:6px 12px;text-align:left}
+.metric{display:flex;align-items:center;gap:12px;margin:6px 0;max-width:760px}
+.metric .k{width:170px;color:#5f6368} .metric .v{font-variant-numeric:tabular-nums}
+.metric .v small{color:#80868b;margin-left:8px}
+.dist{flex:1;height:10px;background:#e8eaed;border-radius:5px;position:relative}
+.range{position:absolute;left:0;top:0;bottom:0;background:#c6dafc;border-radius:5px}
+.iqr{position:absolute;top:0;bottom:0;background:#5f9bff} .med{position:absolute;top:-2px;bottom:-2px;width:2px;background:#1c1e21}
+</style></head><body>
+<h1>Codex Task Ledger — Level-0 Baseline 报告（v0 静态报告）</h1>
+<p>runs 1（有效 0 / 排除 1）·
+usage_source=rollout_cumulative · Primary=median+IQR，Secondary=mean/max/total</p>
+<h2>Primary 指标</h2>
+<div class='metric'><span class='k'>Task Success Rate</span><span class='dist'><span class='range' style='width:0.0%'><span class='iqr' style='left:0.0%;width:0.5%'></span><span class='med' style='left:0.0%'></span></span></span><span class='v'>0<small> IQR 0–0 · mean 0 · max 1</small></span></div>
+<div class='metric'><span class='k'>Tokens/Successful Task</span><span class='dist'><span class='range' style='width:0.0%'><span class='iqr' style='left:0.0%;width:0.5%'></span><span class='med' style='left:0.0%'></span></span></span><span class='v'>0<small> IQR 0–0 · mean 0 · max 0</small></span></div>
+<div class='metric'><span class='k'>Median Wall Time (ms)</span><span class='v'>-</span></div>
+<div class='metric'><span class='k'>Model Calls/Task</span><span class='v'>-</span></div>
+<div class='metric'><span class='k'>Wait/Status Calls</span><span class='v'>-</span></div>
+<div class='metric'><span class='k'>TTFM (ms)</span><span class='v'>-</span></div>
+<div class='metric'><span class='k'>Tokens/Task</span><span class='v'>-</span></div>
+<div class='metric'><span class='k'>Peak Context</span><span class='v'>-</span></div>
+<h2>分任务</h2>
+<table><tr><th>任务</th><th>runs</th><th>成功率</th><th>Token 总量</th><th>median 耗时ms</th><th>median 采样</th><th>median wait</th></tr>
+</table>
+<h2>Run 卡片（turn 时间条：蓝=有效采样占比，橙=wait/status 占比，◆=发生压缩）</h2>
+
+<div class="card ok">
+  <div class="head"><b>T01-R0-20260821-172226</b>
+    <span class="badge green">✓ 成功</span><span class='badge orange'>attribution_ambiguous</span></div>
+  <div class="grid">
+    <span>Token 总量</span><b>-</b>
+    <span>未缓存输入</span><b>-</b>
+    <span>输出</span><b>-</b>
+    <span>采样 / wait</span><b>- / -</b>
+    <span>子代理 / 重试</span><b>- / -</b>
+    <span>峰值上下文</span><b>-</b>
+    <span>压缩次数</span><b>-</b>
+    <span>总耗时</span><b>3,095 ms</b>
+    <span>TTFM / TTFT</span><b>3,041 / - ms</b>
+    <span>失败恢复</span><b>- ms</b>
+  </div>
+  
+</div>
+</body></html>
