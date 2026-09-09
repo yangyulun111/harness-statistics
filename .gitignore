@@ -14,3 +14,5 @@ tests/fixtures/codex-home/
 gui-test/
 .zcode/
 environment.json
+# 本地交接文档（仅存本机，不上传）
+HANDOFF.md
